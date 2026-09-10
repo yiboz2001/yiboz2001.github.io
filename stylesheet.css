@@ -133,3 +133,22 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+/* Preserve the UltraTex teaser's original aspect ratio in the publication card. */
+.ultratex-teaser {
+  width: 100%;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.ultratex-teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.coming-soon {
+  color: #777;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
